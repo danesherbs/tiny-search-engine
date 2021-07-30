@@ -1,0 +1,23 @@
+{
+  "name": "sql-post-search",
+  "version": "1.0.0",
+  "description": "An express app with a SQLite database to demonstrate post search.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danesherbs/mystifying-maxwell.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danesherbs/mystifying-maxwell/issues"
+  },
+  "homepage": "https://github.com/danesherbs/mystifying-maxwell#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.0",
+    "sqlite3": "^5.0.2"
+  }
+}

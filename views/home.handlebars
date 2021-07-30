@@ -1,0 +1,24 @@
+<div class="w-full max-w-lg min-h-screen space-y-4 px-4 sm:px-0 py-4">
+  <div class="relative">
+    <form id="search" class="flex flex-row">
+      <input
+        name="query"
+        placeholder="Search for a post"
+        class="w-full outline-none p-3 mr-2 rounded-lg shadow"
+      />
+      <input
+        type="submit"
+        value="Search"
+        class="px-4 bg-blue-400 text-white rounded-lg cursor-pointer"
+      />
+    </form>
+  </div>
+  <div class="space-y-4">
+    {{#each this.posts}}
+      <div class="w-full outline-none p-3 rounded-lg bg-white shadow">
+        <h1 class="font-semibold mb-2">{{this.title}}</h1>
+        <p>{{this.body}}</p>
+      </div>
+    {{/each}}
+  </div>
+</div>
